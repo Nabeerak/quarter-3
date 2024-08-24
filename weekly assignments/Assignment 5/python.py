@@ -13,7 +13,6 @@ def manage_student_list():
             students.append((id_counter, name))
             id_counter += 1
 
-
     print("\nComplete List of Students (Tuples):")
     print(students)
     print("\nList of Students with IDs:")
